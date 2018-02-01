@@ -22,7 +22,7 @@ const BasicExample = () => {
 }
 
 const Home = () => <h2>Home</h2>;
-const About = () => <h2>About</h2>;
+const About = props => <h2>About{props.aa}</h2>;
 const Topics = ({ match }) => (
   <div>
     <h2>Topic</h2>
